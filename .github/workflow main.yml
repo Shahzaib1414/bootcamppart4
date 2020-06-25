@@ -39,4 +39,3 @@ jobs:
        
     - name: deploying on surge
       run: surge ./build http://lecture4.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
-   
